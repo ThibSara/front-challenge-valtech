@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 
-
 interface CarouselItem {
   title: string;
   url: string;
@@ -62,9 +61,8 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
               <Image
                 src={item.url}
                 alt={item.alt}
-                layout="fill"
-                objectFit="cover"
-                className="block"
+                fill
+                className="object-cover block"
               />
               <div className="absolute text-right bottom-4 right-4 text-black pl-10 p-60 ">
                 <p
