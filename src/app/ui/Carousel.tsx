@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 
+
 interface CarouselItem {
   title: string;
   url: string;
