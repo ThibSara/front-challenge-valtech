@@ -7,7 +7,7 @@
       "type":"HERO",
       "title": "Valtech",
       "subtitle":"Banner subtitle",
-      "description":"Welcome to Valtech!",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac risus id massa posuere vehicula. Vivamus vitae cursus lectus. Donec interdum mi nulla, in consequat ex fringilla tristique. Fusce auctor leo sit amet consequat eleifend. Ut vitae volutpat sem. Aenean a bibendum turpis. Aliquam quis massa orci.",
       "backgroundAsset":{
         "url":"https://placehold.co/1196x480/F3F2EF/F3F2EF",
         "alt":"banner background picture",
