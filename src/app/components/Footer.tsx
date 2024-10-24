@@ -13,9 +13,8 @@ const Footer = () => {
         <Image
           src={footerContent.background}
           alt="Footer background"
-          layout="fill"
-          objectFit="cover"
-          className="w-full h-full"
+          fill
+          className="object-cover w-full h-full"
         />
       </div>
 

@@ -26,6 +26,7 @@ const HeroSection = ({
             alt={foregroundAsset.alt}
             className="object-cover w-full h-full"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 345px"
           />
         </div>
       </div>
