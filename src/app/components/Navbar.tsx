@@ -1,12 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import PAGE_NAMES from "./../utils/PAGE_NAMES";
 
 const Navbar = () => {
   return (
     <nav className="bg-primary" aria-label="navigation bar">
       <div className=" max-w-7xl flex px-20 sm:px-60 xl:px-120 py-4 items-center">
-        <Link href={PAGE_NAMES.HOME} className="flex flex-row gap-2 group">
+        <Link href={"/"} className="flex flex-row gap-2 group">
           <Image
             alt="Valtech Logo"
             src={"/images/valtech.svg"}
