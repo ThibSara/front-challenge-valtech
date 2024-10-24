@@ -3,10 +3,6 @@ import data from "./../../data/article.json";
 import Article from "../article/page";
 import "@testing-library/jest-dom";
 
-jest.mock("next/link", () => ({ children, ...rest }) => (
-  <a {...rest}>{children}</a>
-));
-
 describe("Article Component", () => {
   beforeEach(() => {
     render(<Article />);

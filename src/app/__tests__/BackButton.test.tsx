@@ -2,10 +2,6 @@ import { render, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { BackButton } from "./../ui/BackButton";
 
-jest.mock("next/link", () => ({ children, ...rest }) => (
-  <a {...rest}>{children}</a>
-));
-
 describe("BackButton Component", () => {
   beforeAll(() => {
     delete (window as any).location;

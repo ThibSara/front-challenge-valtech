@@ -2,10 +2,6 @@ import { render } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import Button from "./../ui/Button";
 
-jest.mock("next/link", () => ({ children, ...rest }) => (
-  <a {...rest}>{children}</a>
-));
-
 describe("Button Component", () => {
   test("renders well with the provided props", () => {
     const { getByText, getByRole } = render(
