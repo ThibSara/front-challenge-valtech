@@ -20,7 +20,7 @@ export default function Home() {
         }
         if (section.type === "CARD_GRID") {
           return (
-            <div className="pt-80">
+            <div key={index} className="pt-80">
               <GridSection title={section.title} cards={section.cards} />
             </div>
           );
