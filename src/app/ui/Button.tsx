@@ -5,7 +5,7 @@ const Button = ({ text, href, ariaLabel, target }) => (
     href={href}
     aria-label={ariaLabel}
     target={target}
-    className=" border border-black hover:border-primary shadow-sm transition-colors duration-300 bg-white hover:bg-primary px-8 py-3.5 text-sm font-semibold hover:text-white"
+    className=" border border-black hover:border-primary shadow-sm transition-colors duration-300 bg-white hover:bg-primary px-4 py-3 sm:px-8 sm:py-3.5 text-sm font-semibold hover:text-white"
   >
     {text}
   </Link>

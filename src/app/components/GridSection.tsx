@@ -22,10 +22,12 @@ const GridSection = ({ title, cards }) => {
               width={284}
               height={300}
             />
-            <div className="absolute inset-0 flex flex-col justify-between items-center text-center py-40 px-20">
+            <div className="absolute inset-0 flex flex-col justify-between items-center text-center py-20 sm:py-40 px-20">
               <div>
-                <p className="text-base">{card.subtitle.toUpperCase()}</p>
-                <h3 className="font-semibold text-lg xl:text-xl pt-0 sm:pt-2 ">
+                <p className="text-sm sm:text-base">
+                  {card.subtitle.toUpperCase()}
+                </p>
+                <h3 className="font-semibold text-base sm:text-lg xl:text-xl pt-0 sm:pt-2 ">
                   {card.title.toUpperCase()}
                 </h3>
               </div>
