@@ -1,14 +1,13 @@
 # front-code-challenge
 
-This is the Valtech Front challenge
+✨ This is the Valtech Front code challenge completed !
+🤠 **Live Preview**: Check out the project on [Vercel](https://front-challenge-valtech.vercel.app/) to see it in action.
 
 ## Getting Started
 
-1 - fork the repository so you can work with it
+1 - install all the dependencies `npm install`
 
-2 - install all the dependencies `npm install`
-
-3 - run the development server
+2 - run the development server
 
 ```bash
 npm run dev
@@ -16,8 +15,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Useful resources
+## Testing
+
+1 - run tests
+
+```bash
+npm test
+```
+
+## Used resources
 
 [Project Figma](https://www.figma.com/design/VSzml7sK3UraIJpYwGg9eQ/Valtech-Tech-Challenge?node-id=0-1&t=IpHy7qL3ajJmN2W3-1)
-
-Your data is under: `../src/data`
