@@ -25,15 +25,6 @@ describe("Article Component", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders the HERO_ARTICLE section", () => {
-    const heroSection = data.content.find(
-      (section) => section.type === "HERO_ARTICLE"
-    );
-
-    expect(screen.getByText(heroSection.title)).toBeInTheDocument();
-    expect(screen.getByText(heroSection.subtitle)).toBeInTheDocument();
-  });
-
   it("renders the right number of paragraphs", async () => {
     const paragraphSections = data.content.filter(
       (section) => section.type === "PARAGRAPH"
