@@ -1,7 +1,7 @@
 # front-code-challenge
 
 ✨ This is the Valtech Front code challenge completed !
-🤠 **Live Preview**: Check out the project on [Vercel](https://front-challenge-valtech.vercel.app/) to see it in action.
+🤠 Check out the project on [Vercel](https://front-challenge-valtech.vercel.app/) to see a preview of it.
 
 ## Getting Started
 
