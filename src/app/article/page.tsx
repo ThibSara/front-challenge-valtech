@@ -22,7 +22,7 @@ const Article = () => {
                       src={section.sideAsset.url}
                       alt={section.sideAsset.alt}
                       className="object-cover w-full h-full"
-                      layout="fill"
+                      fill
                     />
                   </div>
 
@@ -31,7 +31,7 @@ const Article = () => {
                       src={section.backgroundAsset.url}
                       alt={section.backgroundAsset.alt}
                       className="object-cover w-full h-full"
-                      layout="fill"
+                      fill
                     />
                     <div className="absolute inset-0 flex flex-col justify-center items-end text-right text-white px-4 sm:px-40">
                       <h2 className=" text-lg sm:text-xl font-light">
